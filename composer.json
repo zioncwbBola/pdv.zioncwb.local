@@ -1,0 +1,25 @@
+{
+    "name": "zioncwb/pdvziongate",
+    "description": "teste de mvc para aplcação ponto de venda",
+    "type": "project",
+    "authors": [
+        {
+            "name": "bolanaracwb-admin",
+            "email": "andre.lifo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+  
+        "psr-4": {
+
+            "App\\" : "./App/",
+            "Config\\" : "./Config/",
+            "Controllers\\" : "./Controllers/",
+            "Models\\" : "./Models/",
+            "Views\\" : "./Views/"
+
+        }
+
+    }
+}
